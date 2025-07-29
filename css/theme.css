@@ -87,9 +87,9 @@
         border: none !important;
     }
     #preview-modal {
-        max-width: 90%;
-    max-height: 90%;
-    overflow-y: auto;
+        max-width: 90vw;
+        max-height: 90vh;
+        overflow-y: auto;
     }
     #main-loader-content {
         max-width: 90%;
@@ -196,8 +196,8 @@ label[for="template-select"] {
     position: relative;
     opacity: 1;
     box-shadow: 0 8px 32px rgba(var(--bs-primary-rgb),0.18);
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 90vw;
+    max-height: 90vh;
     display: flex;
     flex-direction: column;
 }
