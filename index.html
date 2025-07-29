@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title> READKEI.md </title>
+
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+        <link rel="stylesheet" href="css/theme.css">
+        <link rel="stylesheet" href="css/readme.css">
+    </head>
+    <body>
+        <header class="main-header">
+            <div class="header-content">
+                <span class="header-title">READKEI.md</span>
+                <button id="darkmode-toggle" class="darkmode-toggle"><i class="fa-solid fa-circle-half-stroke"></i></button>
+            </div>
+        </header>
+        <div class="container">
+            <label for="template-select">Insert README template:</label>
+            <select id="template-select">
+                <option value="">-- Select a template --</option>
+                <option value="basic">Basic Template</option>
+                <option value="application">Application Template</option>
+                <option value="styled">Styled Template</option>
+            </select>
+            <textarea id="markdown-input" placeholder="Write your markdown here..."></textarea>
+            <button id="preview-btn">Preview</button>
+        </div>
+        <div id="main-loader">
+            <div id="main-loader-content">Checking internet connection...</div>
+        </div>
+        <div id="loader" style="display:none;">
+            <div>Loading preview...</div>
+        </div>
+        <div id="preview-overlay" style="display:none;">
+            <div id="preview-modal">
+                <button id="close-preview" title="Close Preview">&times;</button>
+                <div id="preview"></div>
+                <div id="preview-footer">
+                    <button id="copy-html-btn">Copy HTML</button>
+                    <button id="download-md-btn">Download README</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+        <script src="scripts/main.js"></script>
+    </body>
+</html>
