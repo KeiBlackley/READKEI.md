@@ -1,7 +1,7 @@
-1. Replace `Project-Name` with your repo/project name.
-2. Replace `GitHub-User` with your GitHub username.
-3. Replace `Project-Link` with your project's website.
-4. Replace `Project-Description` with a description of your project.
+1. Replace `READKEI.md` with your repo/project name.
+2. Replace `KeiBlackley` with your GitHub username.
+3. Replace `https://keiblackley.github.io/READKEI.md` with your project's website.
+4. Replace the project description below the shield images.
 5. Modify content in the Table of Contents.
 6. Remove these steps and save.
 
@@ -11,38 +11,30 @@
 
 ---
 
-# Project-Name
+# READKEI.md
 
-![LAST_UPDATE](https://img.shields.io/github/last-commit/GitHub-User/Project-Name)
-![ISSUES](https://img.shields.io/github/issues/GitHub-User/Project-Name)
-![LICENCE](https://img.shields.io/github/license/GitHub-User/Project-Name.svg)
+![LAST_UPDATE](https://img.shields.io/github/release/KeiBlackley/READKEI.md)
+![ISSUES](https://img.shields.io/github/issues/KeiBlackley/READKEI.md)
+![LICENCE](https://img.shields.io/github/license/KeiBlackley/READKEI.md.svg)
 
-> Project-Description
+> GitHub README Markdown Tool - Editor and Preview
 
 ---
 
-[View Demo](#Project-Link) - [Documentation](README.md) - [Report Bug](https://github.com/GitHub-User/Project-Name/issues/) - [Request Feature](https://github.com/GitHub-User/Project-Name/issues/)
+[View Demo](https://keiblackley.github.io/READKEI.md) - [Documentation](README.md) - [Report Bug](https://github.com/KeiBlackley/READKEI.md/issues/) - [Request Feature](https://github.com/KeiBlackley/READKEI.md/issues/)
 
 ---
 
 ## Table of Contents
-- [Demo](#Project-Link)
+- [Demo](https://keiblackley.github.io/READKEI.md)
 - [About This Project](#about-this-project)
     * [What's New](#whats-new)
     * [Screenshots](#screenshots)
     * [Features](#features)
 - [Quick Start](#quick-start)
-- [Getting Started](#getting-started)
-    * [Prerequisites](#prerequisites)
-    * [Installation](#installation)
-    * [Testing](#testing)
-    * [Runnable](#run-locally) 
 - [Project Structure](#project-structure)
 - [Technical Details](#technical-details)
-- [Usage](#usage)
 - [Licence](#license)
-- [About the Developer](#about-the-developer)
-- [Credits & Acknowledgements](#credits--acknowledgements)
 
 ( [back to top](#readme) )
 
@@ -50,42 +42,43 @@
 
 ## About This Project
 
-Write a description and about section for your project.
+This is a Markdown Tool used to generate or create Markdown Documents.
 
 ( [back to top](#readme) )
 
 
 ### What's New
 
-Outline what's new with your application.
+- Markdown Library for HTML conversion
+- README Preview with GitHub styling for users
+- Offline detection to prevent Markdown error(s)
+- Dropdown with Templates for Design Concepts
+- Download `README.md` or `Copy HTML`
+- Toggle Theme button for user comfort
+
 
 ### Screenshots
-> description
-
+> Markdown Editor and Preview
 ![PREVIEW](images/screenshot.png)
 
 ### Features
 
-- Add features here
+- HTML conversion
+- Familiar GitHub styling 
+- Offline detection
+- Templates
+- Download `README.md` or `Copy HTML`
+- Toggle Theme button
 
 ( [back to top](#readme) )
 
 
 ## Quick Start
 
-1. Step by step
-2. Instructions on
-3. How to quickly startup
-
-( [back to top](#readme) )
-
-
-## Getting Started
-
-### Prerequisites
-### Installation
-### Testing
-### Runnable
+1. Visit [keiblackley.github.io/READKEI.md](https://keiblackley.github.io/READKEI.md)
+2. Select a **Template** or enter **your own** Markdown
+3. View with **Preview**
+4. Save with **Copy HTML** or **Download** the `README.md` file.
 
 ( [back to top](#readme) )
 
@@ -93,10 +86,12 @@ Outline what's new with your application.
 ## Project Structure
 
 ```
-Project-Name/
-├── folder/
-│   ├── file                # description
-│   └── file2           
+READKEI.md/
+├── assets*/                # *multiple directories
+|   # css/, scripts/, images/      
+├── templates/              # README Templates
+|   └── basic.md              # Example
+└── index.html              # Tool Home     
 └── README.md               # THIS FILE
 ```
 
@@ -105,35 +100,14 @@ Project-Name/
 
 ## Technical Details
 
-- Technical
-- Details here
-
-( [back to top](#readme) )
-
-
-## Usage
-
-Usage instructions here.
+- Uses [Marked.js](https://marked.js.org/) - Markdown Library
+- Uses [Font Awesome](https://fontawesome.com) - Icon Library
 
 ( [back to top](#readme) )
 
 
 ## License
 
-Add License Here - see [LICENSE](LICENSE) for details.
-
-( [back to top](#readme) )
-
-
-## About the Developer
-
-Add a custom message here.
-
-( [back to top](#readme) )
-
-
-## Credits & Acknowledgements
-
-- [Credit](#credits--acknowledgements)
+MIT Licence - see [LICENSE](LICENSE) for details.
 
 ( [back to top](#readme) )

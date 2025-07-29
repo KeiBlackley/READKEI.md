@@ -3,12 +3,12 @@
 <div align="center">
 <p><img src="images/logo.png" alt="LOGO"></p>
 <h1>READKEI.md</h1>
-<p><a href="https://keiblackley.github.io/README.md">View Demo</a> - <a href="README.md">Documentation</a> - <a href="https://github.com/KeiBlackley/README.md/issues/">Report Bug</a> - <a href="https://github.com/KeiBlackley/README.md/issues/">Request Feature</a></p>
+<p><a href="https://keiblackley.github.io/READKEI.md">View Demo</a> - <a href="README.md">Documentation</a> - <a href="https://github.com/KeiBlackley/README.md/issues/">Report Bug</a> - <a href="https://github.com/KeiBlackley/README.md/issues/">Request Feature</a></p>
 </div>
 <hr/>
 <h2>Table of Contents</h2>
 <ul>
-<li><a href="https://keiblackley.github.io/README.md">Demo</a></li>
+<li><a href="https://keiblackley.github.io/READKEI.md">Demo</a></li>
 <li><a href="#about-this-project">About This Project</a><ul>
 <li><a href="#screenshots">Screenshots</a></li>
 <li><a href="#features">Features</a></li>
@@ -42,7 +42,7 @@
 <div align="right"><p>( <a href="#readme">back to top</a> )</p></div>
 <h2>Quick Start</h2>
 <ol>
-<li>Visit <a href="https://keiblackley.github.io/README.md">https://keiblackley.github.io/README.md</a> 
+<li>Visit <a href="https://keiblackley.github.io/READKEI.md">https://keiblackley.github.io/READKEI.md</a> 
 
 <strong>OR</strong> 
 Open <code>index.html</code> in your browser.</li>
