@@ -198,6 +198,8 @@ label[for="template-select"] {
     box-shadow: 0 8px 32px rgba(var(--bs-primary-rgb),0.18);
     max-width: 90%;
     max-height: 90%;
+    display: flex;
+    flex-direction: column;
 }
 #close-preview {
     position: absolute;
@@ -218,9 +220,6 @@ label[for="template-select"] {
     background: var(--bs-primary-subtle-hover);
 }
 #preview-footer {
-    position: sticky;
-    bottom: 0;
-    left: 0;
     width: 100%;
     max-width: 100%;
     box-sizing: border-box;
@@ -233,21 +232,26 @@ label[for="template-select"] {
     align-items: center;
     gap: 8px;
     z-index: 10002;
-    overflow-x: auto;
+    margin-top: auto;
+    min-height: 56px;
+    overflow: visible !important;
 }
 /* Style for both download and copy html buttons */
 #download-md-btn, #copy-html-btn {
-    padding: 10px 24px;
-    font-size: inherit;
+    padding: 10px 20px;
+    font-size: 18px;
     background: var(--bs-primary);
     color: var(--bs-text-on-primary);
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin: 8px 0;
-    min-width: 140px;
+    margin: 4px 8px;
+    min-width: 48px;
+    width: auto;
     transition: background 0.2s;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 #download-md-btn:hover, #copy-html-btn:hover {
     background: var(--bs-primary-hover);
