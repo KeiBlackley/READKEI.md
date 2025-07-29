@@ -71,16 +71,16 @@
 <li>Familiar GitHub styling</li>
 <li>Offline detection</li>
 <li>Templates</li>
-<li>Download `README.md` or `Copy HTML`</li>
+<li>Download <code>README.md</code> or <code>Copy HTML</code></li>
 <li>Toggle Theme button</li>
 </ul>
 <div align="right"><p>( <a href="#readme">back to top</a> )</p></div>
 <h2>Quick Start</h2>
 <ol>
 <li>Visit [keiblackley.github.io/READKEI.md](https://keiblackley.github.io/READKEI.md)</li>
-<li>Select a **Template** or enter **your own** Markdown</li>
-<li>View with **Preview**</li>
-<li>Save with **Copy HTML** or **Download** the `README.md` file.</li>
+<li>Select a <strong>Template</strong> or enter <strong>your own</strong> Markdown</li>
+<li>View with <strong>Preview</strong></li>
+<li>Save with <strong>Copy HTML</strong> or <strong>Download</strong> the <code>README.md</code> file.</li>
 </ol>
 <div align="right"><p>( <a href="#readme">back to top</a> )</p></div>
 <h2>Getting Started</h2>
