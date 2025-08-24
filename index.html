@@ -4,40 +4,63 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
-		<title> READKEI.md - Live README </title>
-		<link rel="stylesheet" href="assets/markup.css">
+		<title>READKEI.md - Live README</title>
+		
 		<link rel="icon" type="image/png" href="images/logo.png" />
-
+		
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown.min.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+		<link rel="stylesheet" href="assets/readkei.css">
+		
+		<script src="assets/readkei.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 	</head>
-	<body>
-		<div class="autosave-indicator" id="autosave-indicator">Autosave: --</div>
-		<button class="reset-btn" id="reset-btn">Reset</button>
-		<button class="info-btn" id="info-btn">Info</button>
-		<div class="info-modal" id="info-modal" style="display:none;">
-			<div class="info-modal-content">
-				<span class="info-close" id="info-close">&times;</span>
-				<div class="info-header">
-					<img src="images/logo.png" alt="Avatar" class="info-avatar" />
-					<h2>About READKEI.md</h2>
-				</div>
-				<p>This is a live GitHub README Markdown editor and previewer.</p>
-				<ul>
-					<li>Autosaves your work every 30 seconds to your browser's local storage.</li>
-					<li>Uses GitHub-flavored Markdown and the <code>marked</code> library for preview.</li>
-					<li>Click <b>Reset</b> to clear your work and local storage.</li>
-				</ul>
+	<body class="underground">
+
+		<div class="action-buttons">
+			<!-- <button id="publish-btn" class="publish" aria-label="Publish">Publish</button> -->
+			<button id="save-btn-bottom" class="save" aria-label="Save">Save</button>
+			<div class="action-status">
+				<span class="autosave-indicator" id="autosave-indicator">Autosave: --</span>
 			</div>
 		</div>
-		<div class="container">
-			<div class="editor">
-				<textarea id="markdown-input" placeholder="Type your GitHub README markdown here..."></textarea>
+
+		<div class="resizable-container">
+			<aside class="left-aside">
+				<div class="aside-content">
+					<h3>READKEI.md</h3>
+					<div class="drafts-section">
+						<h4>Drafts</h4>
+						<ul style="margin:0 -40px;" id="drafts-list"></ul>
+					</div>
+				</div>
+			</aside>
+			<div class="resizable-editor">
+				<textarea id="markdown-input" placeholder="Type your GitHub README markdown here..." aria-label="Markdown Input"></textarea>
 			</div>
-			<div class="preview">
+			<div class="resizer" id="resizer" aria-label="Resize Editor"></div>
+			<div class="resizable-preview">
 				<article class="markdown-body" id="html-preview"></article>
 			</div>
 		</div>
-		<script src="assets/markup.js"></script>
+		
+		<!-- Responsive overlay for small screens -->
+		<div id="responsive-overlay">
+			<div class="responsive-message">
+				<i class="fa-solid fa-triangle-exclamation" style="font-size:2em;color:#003366;"></i>
+				<h2>Editor isn't compatible with smaller screens</h2>
+				<p>Please use a larger device or resize your browser window.</p>
+			</div>
+		</div>
+
+		<!-- Offline modal -->
+		<div id="offline-modal">
+			<div class="offline-message">
+				<i class="fa-solid fa-wifi" style="font-size:2em;color:#003366;"></i>
+				<h2>No Internet Connection</h2>
+				<p>This editor requires an internet connection for full functionality.<br>Please check your connection and try again.</p>
+			</div>
+		</div>
+
 	</body>
 </html>
