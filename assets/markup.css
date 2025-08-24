@@ -13,13 +13,14 @@
 	background: #eee;
 	border: 2px solid #f6f8fa;
 }
-html, body {
-	height: 100%;
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	background: #f6f8fa;
-	font-family: 'Segoe UI', 'Arial', sans-serif;
+}
+html, body {
+	height: 100%;
+	background: #ccc;
 }
 .copy-btn {
 	position: fixed;
